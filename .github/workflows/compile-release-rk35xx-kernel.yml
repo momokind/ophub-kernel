@@ -17,6 +17,7 @@ on:
         type: choice
         options:
           - unifreq/linux-5.10.y-rk35xx
+          - momokind/linux-5.10.y-rk35xx@z96a
       kernel_version:
         description: "Select kernel version"
         required: false
@@ -52,7 +53,7 @@ on:
         options:
           - -rk35xx-ophub
           - -happy-new-year
-          - -yourname
+          - -momokind
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
